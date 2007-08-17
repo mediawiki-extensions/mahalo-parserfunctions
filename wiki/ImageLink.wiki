@@ -1,5 +1,5 @@
 #summary ImageLink allows you to link internal images to external URLs or internally to other wiki pages.
-#labels Featured
+#labels Phase-Usage
 
 = Introduction =
 
@@ -34,4 +34,3 @@ For example, to link an image called `mahalo-logo.png` to mahalo.com, you could 
 }}}
 
 Where the latter will display "Mahalo.com" when the user hovers over the image.
-

@@ -38,4 +38,4 @@ For example, to activate the ImageLink parser function, you would add this line:
 require_once('extensions/mahalo-parserfunctions/mhoImageLink.php');
 }}}
 
-For a list of available parser functions, see the [Overview Project Overivew].
+For a list of available parser functions, see the [http://code.google.com/p/mahalo-parserfunctions/ Project Home] page.

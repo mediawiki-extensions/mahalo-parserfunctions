@@ -1,4 +1,4 @@
-#summary `{{#imageLink}}` allows you to link internal images to external URLs or internally to other wiki pages.
+#summary {{#imageLink}} allows you to link internal images to external URLs or internally to other wiki pages.
 #labels Phase-Usage
 
 = Introduction =

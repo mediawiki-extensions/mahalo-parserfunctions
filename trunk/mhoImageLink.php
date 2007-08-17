@@ -8,19 +8,19 @@
  * @addtogroup Extensions
  * -----------------------------------------------------------------------
  * Description:
- *     This is a MediaWiki extension which adds a parser function for linking
- *     internal images to internal or external URLs.
+ *     This is a MediaWiki extension which provides  a parser function for linking internal 
+ *     images to external URLs or internally to other wiki pages.
  * Requirements:
  *     MediaWiki 1.9.x or higher
  *     PHP 5.x or higher
  * Installation:
- *     1. Create a folder in your $IP/extensions directory called 'parserfunctions'
+ *     1. Create a folder in your $IP/extensions directory called 'mahalo-parserfunctions'
  *         if it doesn't exist already. (Note: $IP is your MediaWiki install dir)
- *     2. Drop the following scripts into $IP/extensions/parserfunctions:
+ *     2. Drop the following scripts into $IP/extensions/mahalo-parserfunctions:
  *         mhoImageLink.php - This file
  *         mhoParserFunction.php - Abstract base class for parser functions
  *     3. Enable the extension by adding this line to your LocalSettings.php:
- *         require_once('extensions/parserfunctions/mhoImageLink.php');
+ *         require_once('extensions/mahalo-parserfunctions/mhoImageLink.php');
  * -----------------------------------------------------------------------
  */
  

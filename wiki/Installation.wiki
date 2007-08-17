@@ -25,7 +25,7 @@ svn update
 
 To download the latest release,
  # Go to the [http://code.google.com/p/mahalo-parserfunctions/downloads/list Download List] and select a release archive (zip)
- # Extract the archive, this will create a directory called 'mahalo-parserfunctions'
+ # Extract the archive, this will create a directory called `mahalo-parserfunctions`
 
 = Installation and activation =
 

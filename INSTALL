@@ -1,0 +1,31 @@
+---
+Installing Mahalo ParserFunctions
+---
+
+Required software:
+* Web server with PHP 5.x or higher
+* A MySQL server, 4.0.14 or higher OR a Postgres server, 8.1 or higher
+* MediaWiki 1.9.3 or higher
+
+Additional documentation is available online:
+
+http://code.google.com/p/mahalo-parserfunctions/
+
+---
+Instructions
+---
+
+1. Decompress the Mahalo ParserFunctions installation archive - this
+   will create a directory called 'mahaho-parserfunctions'.
+2. Locate your MediaWiki installation directory ($IP) and place the
+   mahalo-parserfunctions directory under $IP/extensions
+3. Activate the individual extensions you'd like to use by adding the
+   appopriate require() line to your LocalSettings.php file.
+   
+For example, to activate the ImageLink extensions (which adds the 
+{{#imageLink}} function), add this line to your LocalSettings.php file:
+
+   require_once('extensions/mahalo-parserfunctions/mhoImageLink.php');
+
+That's it!
+
